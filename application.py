@@ -5,7 +5,7 @@ def rgb_to_gray(image):
     gray = image.convert('L')
     return gray
 
-st.title('RGB to Greyscale Image Converter')
+st.title('Greyscale convertor')
 
 uploaded_file = st.file_uploader('Choose an image...', type=['jpg', 'jpeg', 'png'])
 
